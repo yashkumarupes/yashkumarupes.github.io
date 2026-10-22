@@ -49,7 +49,7 @@ export default function RecruiterView({ data, open, onClose }) {
     <div className="recruiter-layer" onMouseDown={event => { if (event.target === event.currentTarget) onClose(); }}>
       <article ref={dialogRef} className="recruiter-view" role="dialog" aria-modal="true" aria-labelledby="recruiter-title">
         <header className="recruiter-header">
-          <div><span className="record">RECRUITER BRIEF / 60-SECOND VIEW</span><h2 id="recruiter-title">{data.personal.name}</h2><p>{data.personal.title} · B.Tech CSE, Data Science · UPES · 2027</p></div>
+          <div><span className="record">RECRUITER BRIEF / 60-SECOND VIEW</span><h2 id="recruiter-title">{data.personal.name}</h2><p>{data.personal.title} · B.Tech (Hons.) CSE, Data Science · UPES · 2027</p></div>
           <button ref={closeRef} className="recruiter-close" onClick={onClose} aria-label="Close recruiter view">×</button>
         </header>
 

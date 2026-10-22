@@ -29,7 +29,7 @@ export const portfolio = {
     { title:'Facial Emotion Detection System', category:'Machine Learning and Computer Vision', description:'A real-time computer-vision system that detects faces and predicts facial emotions from live webcam input.', tags:['Python','OpenCV','Keras','CNN','MobileNetV2'], details:['Developed real-time emotion detection using OpenCV and Keras.','Created a custom CNN for grayscale inputs.','Evaluated MobileNetV2 transfer learning.','Applied image preprocessing.','Used frame averaging to improve prediction stability.'], github:'', demo:'' }
   ],
   education: [
-    { institution:'UPES, Dehradun', degree:'Bachelor of Technology in Computer Science and Engineering', meta:'Data Science · Aug 2023 – May 2027', score:'CGPA 7.74 / 10' },
+    { institution:'UPES, Dehradun', degree:'Bachelor of Technology (Hons.) in Computer Science and Engineering', meta:'Data Science · Aug 2023 – May 2027', score:'CGPA 7.74 / 10' },
     { institution:'Vidya Bharati Chinmaya Vidyalaya, Jamshedpur, Jharkhand', degree:'Class XII – CBSE Board', meta:'Apr 2022 – May 2023', score:'81.6%' },
     { institution:'Taurian World School, Ranchi, Jharkhand', degree:'Class X – CBSE Board', meta:'Apr 2020 – May 2021', score:'93%' }
   ],
@@ -37,6 +37,6 @@ export const portfolio = {
   achievements: [
     { title:'Head, Documentation Team – Avishkarnam, UPES', description:'Led documentation and coordination for national-level literary events.' },
     { title:'Associate Secretary – NSS UPES', description:'Led and coordinated social-service initiatives and community drives.' },
-    { title:'University and SOCS Football Team Representative', description:'Represented the university in intra- and inter-college football tournaments.' }
+    { title:'Represented University and SOCS Football Team', description:'Represented the university in intra- and inter-college football tournaments.' }
   ]
 };

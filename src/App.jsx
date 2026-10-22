@@ -13,7 +13,7 @@ const highlights=['2 Software Internships','3 Featured Projects','AI, Data & Ful
 
 function About(){
   const focus=['Generative AI','Agentic AI','Retrieval-Augmented Generation','LLM Applications','Full-Stack Engineering','Data Analytics','Reliable Backend Systems'];
-  const meta=[['Degree','B.Tech CSE'],['Specialization','Data Science'],['University','UPES'],['Graduation','2027'],['Primary Interests','AI & Software Engineering'],['Availability','Open to Opportunities']];
+  const meta=[['Degree','B.Tech (Hons.) CSE'],['Specialization','Data Science'],['University','UPES'],['Graduation','2027'],['Primary Interests','AI & Software Engineering'],['Availability','Open to Opportunities']];
   return <section id="about"><SectionHeader number="01" label="SUBJECT DOSSIER" title="About Me"/><div className="about-grid"><div className="prose"><p>I am a Computer Science and Engineering undergraduate at UPES, Dehradun, specializing in Data Science. I enjoy developing reliable AI-powered applications, full-stack platforms and data-driven systems that solve practical problems.</p><p>My experience includes building an industrial IoT analytics chatbot, a full-stack SEO analysis platform, a privacy-focused password assessment suite and a real-time facial emotion detection system.</p><p>I focus on clean architecture, structured responses, privacy, usability and dependable application behaviour.</p><h3>Current Focus</h3><Chips items={focus}/></div><dl className="metadata">{meta.map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl></div></section>;
 }
 function SkillsTicker(){
